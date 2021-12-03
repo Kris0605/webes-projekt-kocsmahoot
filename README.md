@@ -23,6 +23,11 @@
 ### összekötés a frontenddel
 * az assets/dist mappa helyére kell berkani a legfrissebb frontend fájlokat
 
+## MySQL
+1. Linről letölteni, és telepíteni (https://dev.mysql.com/downloads/installer/)
+2. Telepítésnél az Authentication method fülön majd a Use Legacy Authentication Method-ot kell kiválasztani.
+3. Be kell állítani majd felhasználót, ott felajánlja, hogy legyen a neve root, én úgyhagytam, a jelszót pedig csopiban lesz.
+4. Elvileg ezek után működik.
 
 ## Kommunikáció (req: kérés a klienstől, action: a szerver csinálja, res: a szerver ezt küldi)
 * CreateGame
